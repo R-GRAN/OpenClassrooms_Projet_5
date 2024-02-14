@@ -1,42 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <!-- Script Schema.org-->
-
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org/",
-        "@type": "LocalBusiness",
-        "name": "Nina Carducci",
-        "image": "https://nina-carducci.github.io/assets/images/mini-nina.webp",
-        "priceRange": "50€ - 400€",
-        "telephone": "0556677889",
-        "url": "https://nina-carducci.github.io/",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "68 avenue Alsace-Lorraine",
-          "addressLocality": "Bordeaux",
-          "addressRegion": "Nouvelle-Aquitaine",
-          "postalCode": "33200",
-          "addressCountry": "France"
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "10:00",
-            "closes": "19:00"
-          }
-        ],
-        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
-      }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
 
     <!-- Balises meta Open Graph'business' pour les informations sur l'entreprise -->
 
@@ -50,7 +16,7 @@
     <meta property="business:contact_data:phone_number" content="0556677889" />
     <meta
       property="business:contact_data:website"
-      content="https://nina-carducci.github.io/"
+      content="https://r-gran.github.io/OpenClassrooms_Projet_5/"
     />
     <meta
       property="business:contact_data:email"
@@ -59,32 +25,41 @@
 
     <!-- Balises meta Open Graph 'website' pour les informations sur la page pour les reseaux sociaux -->
 
-    <meta property="og:title" content="Site de photographie de Nina Carducci" />
+    <meta
+      property="og:title"
+      content="Nina Carducci | Photographe professionnelle à Bordeaux"
+    />
     <meta
       property="og:description"
-      content="Retrouvez le site de photographie de Nina Carducci."
+      content="À la recherche d'une photographe professionnelle à Bordeaux pour immortaliser vos moments précieux ? Découvrez le talent et la passion de Nina Carducci, spécialiste de la photographie artistique et lifestyle. Contactez-nous pour des séances personnalisées de portrait, mariage, entreprise et évènements comme des concerts. Capturons ensemble l'essence de votre vie en images inoubliables."
     />
-    <meta property="og:url" content="https://nina-carducci.github.io/" />
+    <meta
+      property="og:url"
+      content="https://r-gran.github.io/OpenClassrooms_Projet_5/"
+    />
     <meta property="og:type" content="website" />
     <meta
       property="og:image"
-      content="https://nina-carducci.github.io/assets/images/mini-nina.webp"
+      content="https://r-gran.github.io/OpenClassrooms_Projet_5/assets/images/mini-nina.webp"
     />
 
     <!-- Balises meta Twitter / X  -->
 
     <meta
       name="twitter:title"
-      content="Site de photographie de Nina Carducci"
+      content="Nina Carducci | Photographe professionnelle à Bordeaux"
     />
     <meta
       name="twitter:description"
-      content="Retrouvez le site de photographie de Nina Carducci."
+      content="À la recherche d'une photographe professionnelle à Bordeaux pour immortaliser vos moments précieux ? Découvrez le talent et la passion de Nina Carducci, spécialiste de la photographie artistique et lifestyle. Contactez-nous pour des séances personnalisées de portrait, mariage, entreprise et évènements comme des concerts. Capturons ensemble l'essence de votre vie en images inoubliables."
     />
-    <meta name="twitter:url" content="https://nina-carducci.github.io/" />
+    <meta
+      name="twitter:url"
+      content="https://r-gran.github.io/OpenClassrooms_Projet_5/"
+    />
     <meta
       name="twitter:image"
-      content="https://nina-carducci.github.io/assets/images/mini-nina.webp"
+      content="https://r-gran.github.io/OpenClassrooms_Projet_5/assets/images/mini-nina.webp"
     />
 
     <!-- CDN via jsDelivr -->
@@ -103,14 +78,13 @@
       rel="stylesheet"
     />
 
-    <title>Nina Carducci | Photographe Freelance à Bordeaux</title>
+    <!-- SEO -->
+    <title>Nina Carducci | Photographe professionnelle à Bordeaux</title>
     <meta
       name="description"
-      content="À la recherche d'un photographe freelance à Bordeaux pour immortaliser vos moments précieux ? Découvrez le talent et la passion de Nina Carducci, spécialiste de la photographie artistique et lifestyle. Contactez-nous pour des séances personnalisées de portrait, mariage, entreprise et évènements comme des concerts. Capturons ensemble l'essence de votre vie en images inoubliables."
+      content="À la recherche d'une photographe professionnelle à Bordeaux pour immortaliser vos moments précieux ? Découvrez le talent et la passion de Nina Carducci, spécialiste de la photographie artistique et lifestyle. Contactez-nous pour des séances personnalisées de portrait, mariage, entreprise et évènements comme des concerts. Capturons ensemble l'essence de votre vie en images inoubliables."
     />
     <meta name="robots" content="index, follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
   </head>
 
   <body>
@@ -207,7 +181,7 @@
           </button>
         </div>
       </div>
-      <div id="about">
+      <section id="about">
         <div class="picture left">
           <img
             src="./assets/images/mini-nina.webp"
@@ -234,8 +208,8 @@
             yeux sur vos photos.
           </p>
         </div>
-      </div>
-      <div id="gallery">
+      </section>
+      <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
@@ -309,8 +283,8 @@
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
         </div>
-      </div>
-      <div id="services">
+      </section>
+      <section id="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
           <div class="service">
@@ -355,7 +329,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div class="quote">
         <figure>
           <blockquote>
@@ -368,7 +342,7 @@
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
-      <div id="contact">
+      <section id="contact">
         <div class="container">
           <div class="form-container">
             <h3>Une question ? Une demande de devis ?</h3>
@@ -395,8 +369,9 @@
             <img src="./assets/images/mini-camera.webp" alt="une caméra" />
           </div>
         </div>
-      </div>
+      </section>
     </main>
+
     <!-- CDN via jsDelivr -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -408,6 +383,44 @@
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+
+    <!-- Script Schema.org / Google Richsnippet -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "image": "https://r-gran.github.io/OpenClassrooms_Projet_5/assets/images/mini-nina.webp",
+        "priceRange": "50€ - 400€",
+        "telephone": "0556677889",
+        "url": "https://r-gran.github.io/OpenClassrooms_Projet_5/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200",
+          "addressCountry": "France"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
+      }
+    </script>
+
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
   </body>
